@@ -9,7 +9,7 @@ import (
 	"strconv"
 
 	"github.com/nayoung511/blockchain_build/blockchain"
-	"github.com/nayoung511/blockchain_build/wallet"
+	"github.com/tensor-programming/golang-blockchain/wallet"
 )
 
 type CommandLine struct{}
