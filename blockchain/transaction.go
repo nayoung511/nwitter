@@ -13,7 +13,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/nayoung511/blockchain/wallet"
+	"github.com/nayoung511/blockchain_build/wallet"
 )
 
 type Transaction struct {
