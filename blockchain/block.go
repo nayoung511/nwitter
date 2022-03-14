@@ -3,6 +3,7 @@ package blockchain
 import (
 	"bytes"
 	"encoding/gob"
+	"log"
 )
 type Block struct {
 	Hash     []byte
@@ -51,7 +52,7 @@ func Deserialize(data []byte) *Block {
 
 }
 
-func Handle (err error) {
+func Handle(err error) {
 	if err != nil {
 		log.Panic(err)
 	}
