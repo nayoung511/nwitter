@@ -22,6 +22,8 @@ github.com/smartystreets/assertions v1.1.1/go.mod h1:tcbTF8ujkAEcZ8TElKY+i30BzYl
 github.com/smartystreets/goconvey v1.6.4/go.mod h1:syvi0/a8iFYH4r/RixwvyeAJjdLS9QV7WQ/tjFTllLA=
 github.com/stretchr/testify v1.2.2 h1:bSDNvY7ZPG5RlJ8otE/7V6gMiyenm9RtJ7IUVIAoJ1w=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
+github.com/vrecan/death v3.0.1+incompatible h1:hYRRqrdyoUAbymk2KJ8tNHmZFKcVeThRUySCqwC5Itg=
+github.com/vrecan/death v3.0.1+incompatible/go.mod h1:ektTae4lwvcXJ7pytrLb2N0w7mwhzmu+f5vRHYzy33E=
 github.com/vrecan/death/v3 v3.0.3 h1:BxwLAe5f3/zyRKlJIe2v5Ca6YEfEHfTbg76WvaEAO5I=
 github.com/vrecan/death/v3 v3.0.3/go.mod h1:pIjPSMpSoB8B87r4Q+3vXC6lIf1d/fFQgfwZQUiTqec=
 golang.org/x/crypto v0.0.0-20181030102418-4d3f4d9ffa16 h1:y6ce7gCWtnH+m3dCjzQ1PCuwl28DDIc3VNnvY29DlIA=

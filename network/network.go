@@ -13,7 +13,7 @@ import (
 	"runtime"
 	"os"
 
-	"github.com/vrecan/death/v3"
+	DEATH "github.com/vrecan/death"
 
 	"github.com/nayoung511/blockchain_build/blockchain"
 )
@@ -485,7 +485,7 @@ func NodeIsKnown(addr string) bool {
 }
 
 func CloseDB(chain *blockchain.BlockChain) {
-	d := death.NewDeath(syscall.SIGINT, syscall.SIGTERM, os.Interrupt)
+	d := DEATH.NewDeath(syscall.SIGINT, syscall.SIGTERM)
 
 	d.WaitForDeathWithFunc(func() {
 		defer os.Exit(1)

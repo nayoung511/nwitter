@@ -5,6 +5,7 @@ go 1.17
 require github.com/dgraph-io/badger v1.5.4
 
 require (
+	github.com/vrecan/death v3.0.1+incompatible // indirect
 	github.com/vrecan/death/v3 v3.0.3 // indirect
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
 	golang.org/x/sys v0.0.0-20220310020820-b874c991c1a5 // indirect
