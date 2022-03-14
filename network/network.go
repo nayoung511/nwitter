@@ -13,7 +13,7 @@ import (
 	"runtime"
 	"os"
 
-	"gopkg.in/vrecan/death.v3"
+	"github.com/vrecan/death/v3"
 
 	"github.com/nayoung511/blockchain_build/blockchain"
 )

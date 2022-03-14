@@ -5,6 +5,7 @@ go 1.17
 require github.com/dgraph-io/badger v1.5.4
 
 require (
+	github.com/vrecan/death/v3 v3.0.3 // indirect
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
 	golang.org/x/sys v0.0.0-20220310020820-b874c991c1a5 // indirect
 )
@@ -18,6 +19,6 @@ require (
 	github.com/pkg/errors v0.8.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/stretchr/testify v1.2.2 // indirect
-	golang.org/x/crypto v0.0.0-20181030102418-4d3f4d9ffa16
-	golang.org/x/net v0.0.0-20181023162649-9b4f9f5ad519 // indirect
+	golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2
+	golang.org/x/net v0.0.0-20190311183353-d8887717615a // indirect
 )
